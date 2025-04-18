@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NeoSoftTechTestApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NeoSoftTechTestApp" parent="Base.Theme.NeoSoftTechTestApp" />
+
+    <style name="CustomShapeAppearance" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="CustomShapeAppearanceCarousel" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerSize">15dp</item>
+    </style>
+</resources>

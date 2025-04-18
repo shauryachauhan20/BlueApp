@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="dataItem"
+            type="com.example.neosofttechtestapp.dataSource.model.ContentListItem" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/project_dimens_dp18"
+        android:layout_marginTop="@dimen/project_dimens_dp5"
+        android:background="@drawable/rectangle_blue_light">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgItem"
+            android:layout_width="@dimen/project_dimens_dp60"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/project_dimens_dp5"
+            android:scaleType="centerCrop"
+            android:src="@{dataItem.imageRes}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/CustomShapeAppearance" />
+
+        <TextView
+            android:id="@+id/listTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/project_dimens_dp10"
+            android:layout_marginTop="@dimen/project_dimens_dp10"
+            android:text="@{dataItem.contentTitle}"
+            android:textSize="@dimen/project_dimens_13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imgItem"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/listMainItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/project_dimens_dp5"
+            android:layout_marginEnd="@dimen/project_dimens_dp10"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@{dataItem.contentDescription}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/project_dimens_13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/listTitle"
+            app:layout_constraintTop_toBottomOf="@id/listTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

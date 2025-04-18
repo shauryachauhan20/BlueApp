@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">NeoSoftTechTestApp</string>
+    <string name="search">Search</string>
+    <string name="statistics">Show statistics</string>
+    <string name="item_image">Item Image</string>
+    <string name="list">List</string>
+    <string name="items">items</string>
+    <string name="neoSoft_company">NeoSoft Company</string>
+    <string name="neoSoft_developer">NeoSoft Developer</string>
+    <string name="backend_developer">Backend Developer</string>
+    <string name="frontend_developer">Frontend Developer</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="data_analyst">Data Analyst</string>
+    <string name="devops">Devops</string>
+    <string name="neoSoft_company_noida">NeoSoft Company</string>
+    <string name="neoSoft_developer_noida">NeoSoft Developer</string>
+    <string name="backend_developer_noida">Backend Developer</string>
+    <string name="frontend_developer_noida">Frontend Developer</string>
+    <string name="android_developer_noida">Android Developer</string>
+    <string name="data_analyst_noida">Data Analyst</string>
+    <string name="devops_noida">Devops</string>
+    <string name="tester_noida">Software Tester</string>
+    <string name="em_noida">Engineering Manager</string>
+    <string name="des_first">The all company branches all over world</string>
+    <string name="des_second">NeoSoft all employees</string>
+    <string name="des_third">The company all backend developer</string>
+    <string name="des_fourth">These are front end developer</string>
+    <string name="des_fifth">These are Android developer</string>
+    <string name="des_sixth">These are all data analyst</string>
+    <string name="des_seventh">Devops engineer</string>
+    <string name="des_eighth">Tester in all Automation and manual Noida</string>
+    <string name="des_ninth">Engineering manager Noida</string>
+</resources>
